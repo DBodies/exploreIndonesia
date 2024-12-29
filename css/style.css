@@ -74,6 +74,8 @@ img {
 .svg-flower {
   margin-right: 5px;
   fill: #ffffff;
+    position: relative;
+  z-index: 2;
 }
 .title-text {
   display: flex;
@@ -87,19 +89,41 @@ img {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 2;
+  transition: transform 350ms ease-in-out;
 }
+.title-text:focus,
+.title-text:hover {
+  transform: scale(1.1);
+background: linear-gradient(180deg, #ffee00 60%, rgba(16, 8, 134, 0.5) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .btn-search {
   display: flex;
   margin-left: auto;
   margin-right: 29px;
   fill: #ffffff;
+    position: relative;
+  z-index: 2;
 }
 .svg-search {
   fill: #ffffff;
+    transition: transform 350ms ease-in-out;
 }
+.svg-search:hover, .menu:hover {
+  transform: scale(1.5);
+}
+
 .menu {
   fill: #ffffff;
+  position: relative;
+  z-index: 2;
+    transition: transform 350ms ease-in-out;
 }
 
 .first-section {
@@ -110,6 +134,18 @@ img {
   width: 100%;
 padding-bottom: 40px;
   padding-top: 153px;
+
+}
+.first-section::before {
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(1, 10, 32, 0.2);
+  z-index: 1;
+  height: 1104px;
 }
 @media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .first-section {
@@ -123,16 +159,26 @@ padding-bottom: 40px;
   line-height: 108%;
   text-transform: uppercase;
   margin-bottom: 16px;
+    position: relative;
+  z-index: 2;
 }
 .btn-traveling {
   border-radius: 108px;
   padding: 14px 90px;
-  background-color: #dd2242;
   font-weight: 700;
+  border: 3px solid white;
   font-size: 18px;
   line-height: 150%;
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 2;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.btn-traveling:hover {
+ background-color: #83b7fa;
+ border: 3px solid #8cbaf7;
+ color: rgb(34, 33, 33);
 }
 .list-counters {
   margin: 43px 0 10px 0;
@@ -169,6 +215,7 @@ padding-bottom: 40px;
     align-items: center;
     justify-content: center;
   position: relative;
+  z-index: 2;
 }
 
 .video-icon-btn {
@@ -178,4 +225,135 @@ border: #fff;
 width: 59px;
 height: 59px;
 background-color: #fff;
+transition: transform 350ms ease-out;
+}
+
+.video-icon-btn:hover {
+  background-color: transparent;
+  transform: scale(1.7);
+}
+/* -------------------------------------------------------Second section--------------------------------------------------------------------------------------------------------------------------------------------- */
+.wrapper-img {
+  position: relative; 
+  background-image: url(/img/secondBG@1x.jpg);
+  padding: 0;
+  padding-bottom: 48px;
+}
+
+.wrapper-img::before {
+  content: '';
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   background: rgba(1, 10, 32, 0.9);
+  z-index: 1;
+}
+
+.wrapper-img > * {
+  position: relative; 
+  z-index: 2;
+}
+
+.second-wrapper {
+  padding: 0;
+}
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .wrapper-img {
+    background-image: url(/img/secondBG@2x.jpg);
+  }
+}
+.img-field {
+  padding: 40px 30px 0 30px;
+  width: 85%;
+border-radius: 18%;
+margin-bottom: 33px;
+}
+.under-field {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+color: #ffffff;
+}
+.text-under-field {
+  padding: 0 30px;
+  margin-bottom: 38px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+.btn-info {
+  padding: 0 30px;
+  display: flex;
+  margin: 0 auto;
+  padding: 22px 107px;
+  font-weight: 700;
+font-size: 18px;
+color: #ffffff;
+line-height: 150%;
+text-align: center;
+border-radius: 32px;
+background: #dd2242;
+}
+.second-wrapper-img {
+  background-image: url(/img/seconBGbeach@1x.jpg);
+padding-bottom: 48px;
+}
+.second-wrapper-img {
+  position: relative;
+  background-image: url(/img/seconBGbeach@1x.jpg);
+  padding-bottom: 48px;
+}
+
+.second-wrapper-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(1, 10, 32, 0.9);
+  z-index: 1;
+}
+
+.second-wrapper-img > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+@media screen and (min-resolution: 192dpi), screen and (min-resolution:2dppx) {
+  .second-wrapper-img {
+    background-image: url(/img/seconBGbeach@2x.jpg);
+  }
+}
+.img-beach {
+  padding: 0 30px;
+    width: 85%;
+border-radius: 15%;
+margin-bottom: 41px;
+}
+.under-beach {
+  padding: 0 30px;
+  margin-bottom: 41px;
+  font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+color: #ffffff;
+}
+.text-under-beach {
+  padding: 0 30px;
+  margin-bottom: 28px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #ffffff;
 }
