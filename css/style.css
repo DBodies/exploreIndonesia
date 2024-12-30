@@ -229,8 +229,9 @@ transition: transform 350ms ease-out;
 }
 
 .video-icon-btn:hover {
-  background-color: transparent;
-  transform: scale(1.7);
+  background-color: red;
+  transform: scale(1.5);
+  fill: white;
 }
 /* -------------------------------------------------------Second section--------------------------------------------------------------------------------------------------------------------------------------------- */
 .wrapper-img {
@@ -300,10 +301,7 @@ text-align: center;
 border-radius: 32px;
 background: #dd2242;
 }
-.second-wrapper-img {
-  background-image: url(/img/seconBGbeach@1x.jpg);
-padding-bottom: 48px;
-}
+
 .second-wrapper-img {
   position: relative;
   background-image: url(/img/seconBGbeach@1x.jpg);
@@ -325,10 +323,6 @@ padding-bottom: 48px;
   position: relative;
   z-index: 2;
 }
-
-
-
-
 @media screen and (min-resolution: 192dpi), screen and (min-resolution:2dppx) {
   .second-wrapper-img {
     background-image: url(/img/seconBGbeach@2x.jpg);
@@ -356,4 +350,49 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.03em;
 color: #ffffff;
+}
+/* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section */
+.third-section {
+  background-image: url(/img/mountainBG@1x.jpg);
+height: 2000px;
+}
+.third-section-wrapper {
+  padding: 40px 0 0 0;
+}
+@media screen and (min-resolution: 192dpi), screen and (min-resolution:2dppx) {
+  .third-section {
+  background-image: url(/img/mountainBG@2x.jpg);
+}
+}
+.third-img {
+  border-radius: 15px;
+  width: 80%;
+}
+.third-section-text {
+  font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+margin-bottom: 40px;
+padding: 0 30px ;
+}
+.wrapper-back-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.svg-list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.svg-circle {
+  fill: grey;
+}
+.svg-list:first-child:active {
+  fill:red;
 }
