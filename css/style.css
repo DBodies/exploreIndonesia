@@ -354,7 +354,8 @@ color: #ffffff;
 /* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section */
 .third-section {
   background-image: url(/img/mountainBG@1x.jpg);
-height: 2000px;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 .third-section-wrapper {
   padding: 40px 0 0 0;
@@ -389,10 +390,104 @@ padding: 0 30px ;
   gap: 15px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 867px;
 }
 .svg-circle {
   fill: grey;
 }
 .svg-list:first-child:active {
   fill:red;
+}
+.by-the-number {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  padding: 0 30px;
+  position: relative;
+  padding-top: 60px;
+   padding-bottom: 60px;
+}
+@media screen and (min-width:320px) and (max-width:412px) {
+  .by-the-number {
+       padding-bottom: 0;
+  }
+}
+.third-title {
+  font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+color: #ffffff;
+margin-bottom: 60px;
+}
+.third-div-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #fff;
+ margin-bottom: 64px;
+  max-width: 314px;
+  text-align: center;
+}
+.third-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+}
+.third-section-list .third-section-items:nth-child(2n) {
+  margin-bottom: 70px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #fff;
+}
+.third-section-list .third-section-items:nth-child(6) {
+    margin-bottom: 0;
+}
+.third-section-items {
+    font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+color: #dd2242;
+}
+.by-the-number::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(1, 10, 32, 0.9);
+  z-index: 1;
+}
+.by-the-number > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION *//* FOURTH SECTION */
+.fourth-section {
+  background-color: #ffffff;
+  padding: 140px 0;
+}
+.fourth-section-title {
+  font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+color: #000000;
+margin-bottom: 36px;
+}
+.fourth-section-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #000;
+margin-bottom: 42px;
 }
