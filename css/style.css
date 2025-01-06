@@ -20,7 +20,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -212,7 +212,6 @@ padding-bottom: 40px;
   text-align: center;
 }
 .list-counters {
-
   margin: 43px 0 10px 0;
   padding: 45px 28px 20px 28px;
   counter-reset: first;
@@ -649,4 +648,202 @@ margin-bottom: 40px;
   border-radius: 15px;
   object-fit: cover;
   
+}
+/* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION *//* SEVENTH SECTION */
+.seventh-section {
+    background-color: rgba(59, 39, 103, 0.3);
+    padding: 28px 0;
+}
+.seventh-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.seventh-title {
+ font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+margin-bottom: 46px;
+}
+.second-list-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  counter-reset: first;
+  list-style-type: none;
+  min-width: 200px;
+  opacity: 1;
+  
+}
+.second-items-counter::before {
+    counter-increment: first;
+  content: counter(first, decimal) " ";
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 26px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  background-color: #dd2242;
+  margin: 0 auto;
+      margin-bottom: 26px;
+}
+.second-list-counter .second-items-counter:nth-child(3)::before {
+  display: none;
+}
+
+.second-items-counter {
+  text-align: center;
+  position: relative;
+}
+.text-in-counters {
+  font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+text-align: center;
+color: #000000;
+margin-bottom: 6px;
+}
+.seventh-text {
+  text-align: center;
+        font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+opacity: 0.7;
+
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  max-height: calc(1.2em * 3); /* 1.2em per line, adjust as needed */
+  transition: 250ms ease-in;
+}
+.hidden-text {
+  display: none;
+ transition: max-height 0.5s ease-in-out;
+}
+.show {
+  display: inline;
+}
+.btn-show-more {
+      margin-bottom: 26px;
+        text-align: center;
+        font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #dd2242;
+}
+.show-more-btn:focus {
+  outline: none;
+}
+
+/* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER *//* FOOTER */
+.footer-wrapper {
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+.footer-container-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.svg-footer {
+  fill: white;
+  margin-right: 8px;
+}
+.footer-text {
+  color: red;
+  font-weight: 900;
+font-size: 23px;
+line-height: 90%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+}
+.footer-span {
+  color: white;
+  font-weight: 900;
+font-size: 23px;
+line-height: 90%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+}
+.footer {
+  background-color: #04001b;
+  position: relative;
+}
+.icon-up-btn {
+  width: 104px;
+height: 104px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+top: -35px;
+left: 50%;
+transform: translateX(-50%);
+}
+.icon-up-footer {
+  fill: white;
+  transition: 250ms ease-in;
+}
+.icon-up-footer:focus, .icon-up-footer:hover {
+  transform: scale(1.2);
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.footer-items {
+  font-weight: 700;
+font-size: 22px;
+line-height: 156%;
+letter-spacing: 0.03em;
+color: white;
+transition: 250ms ease-in;
+}
+.footer-items:hover, .footer-items:focus {
+  transform: scale(1.2);
+}
+.footer-list:hover > :not(:hover) {
+  opacity: 0.7;
+  transform: scale(1);
+}
+.footer-svgs-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  margin-bottom: 20px;
+}
+.footer-svg {
+  fill: white;
+  transition: 250ms ease-in;
+}
+.footer-svg:hover, .footer-svg:focus {
+  transform: scale(1.5);
+  fill: red;
+}
+.footer-item-copy {
+  text-align: center;
+  margin: 0 auto;
+    font-weight: 700;
+font-size: 22px;
+line-height: 156%;
+letter-spacing: 0.03em;
+color: white;
 }
