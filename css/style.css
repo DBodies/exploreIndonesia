@@ -431,6 +431,10 @@ padding: 0 30px ;
 .svg-circle {
   fill: grey;
 }
+.svg-circle.selected {
+  fill:red;
+  width: 24px;
+}
 .svg-list:first-child:active {
   fill:red;
 }
