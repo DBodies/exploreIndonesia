@@ -25,6 +25,14 @@
                 >EXPLORE <br />INDONESIA</a
               >
             </p>
+            <nav class="desktop-nav visually-hidden">
+            <ul class="desktop-list">
+              <li class="desktop-list-items"><a href="" id="">destinations</a></li>
+              <li class="desktop-list-items"><a href="" id="">experiences</a></li>
+              <li class="desktop-list-items"><a href="" id="">about</a></li>
+              <li class="desktop-list-items"><a href="" id="">gallery</a></li>
+            </ul>
+            </nav>
             <button class="btn-search">
               <svg class="svg-search" width="18" height="18">
                 <use href="./sprite.svg#icon-iconSearch"></use>
@@ -47,6 +55,7 @@
             <button class="btn-traveling">
               <span class="in-btn-text">Start traveling</span>
             </button>
+            <div class="desktop-wrapper">
             <ol class="list-counters">
               <li class="item-list-counter">
                 <br />Title here
@@ -67,18 +76,22 @@
                 </p>
               </li>
             </ol>
-
             <div class="first-video">
               <a
                 class="video-size"
                 href="https://www.youtube.com/watch?v=LCbo_xk30w4"
                 target="_blank"
-                ><img
+                >
+                <picture>
+                  <source media="(min-width:1280px)" srcset="./img/desktopBeachVideo@1x.jpg, ./img/desktopBeachVideo@2x.jpg" > 
+                  <img
                   class="fifth-section-img"
                   src="./img/firstBgVideo@1x.jpg"
                   srcset="./img/firstBgVideo@1x.jpg, ./img/firstBgVideo@2x.jpg"
                   alt="video-background"
-              /></a>
+              />
+            </picture>
+          </a>
               <button class="video-icon-btn">
                 <a target="_blank" href="https://www.youtube.com/watch?v=LCbo_xk30w4">
                 <svg class="svg-icon-play" width="33" height="34">
@@ -86,6 +99,7 @@
                 </svg>
                 </a>
               </button>
+            </div>
             </div>
           </div>
         </div>
@@ -99,6 +113,7 @@
               alt="field"
               class="img-field"
             />
+            <div class="desktop-third-section">
             <p class="under-field">The walkways of Indonesia spellbind</p>
             <p class="text-under-field">
               Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
@@ -112,6 +127,7 @@
                 >Learn More</a
               >
             </button>
+            </div>
           </div>
           <div class="second-wrapper-img">
             <img
