@@ -136,7 +136,6 @@ background: linear-gradient(180deg, #ffee00 60%, rgba(16, 8, 134, 0.5) 50%);
   width: 100%;
 padding-bottom: 40px;
   padding-top: 153px;
-
 }
 .first-section::before {
     content: '';
@@ -919,9 +918,9 @@ padding-bottom: 0;
 .first-section::before {
   height: 1025px;
 }
-@media screen and (min-resolution:192dpi) and (min-resolution:2dppx) {
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .first-section {
-  background-image: url(/img/desktopFirstBG@2x.);
+  background-image: url(/img/desktopFirstBG@2x.jpg);
   }
 }
 .first-title {
