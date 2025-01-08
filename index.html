@@ -82,8 +82,9 @@
                 href="https://www.youtube.com/watch?v=LCbo_xk30w4"
                 target="_blank"
                 >
+                
                 <picture>
-                  <source media="(min-width:1280px)" srcset="./img/desktopBeachVideo@1x.jpg, ./img/desktopBeachVideo@2x.jpg" > 
+                  <source media="(min-width:1280px)" srcset="./img/desktopBeachVideo@1x.jpg 1x, ./img/desktopBeachVideo@2x.jpg 2x" > 
                   <img
                   class="fifth-section-img"
                   src="./img/firstBgVideo@1x.jpg"
@@ -107,12 +108,15 @@
       <section class="second-section">
         <div class="container second-wrapper">
           <div class="wrapper-img">
+            <picture>
+              <source media="(min-width:1280px)" srcset="./img/desktopField@1x.jpg 1x, ./img/desktopField@2x.jpg 2x">
             <img
               src="./img/field@1x.jpg"
-              srcset="./img/field@2x.jpg"
+              srcset="./img/field@2x.jpg 2x"
               alt="field"
               class="img-field"
             />
+          </picture>
             <div class="desktop-third-section">
             <p class="under-field">The walkways of Indonesia spellbind</p>
             <p class="text-under-field">
@@ -130,12 +134,16 @@
             </div>
           </div>
           <div class="second-wrapper-img">
+            <picture>
+              <source media="(min-width:1280px)" srcset="./img/desktopBeach@1x.jpg 1x, ./img/desktopBeach@2x.jpg 2x">
             <img
               src="./img/beach@1x.jpg"
               srcset="./img/beach@2x.jpg"
               alt="beach"
               class="img-beach"
             />
+            </picture>
+            <div class="desktop-third-section2">
             <p class="under-beach">Perfect beaches exude relaxation and fun</p>
             <p class="text-under-beach">
               Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
@@ -149,6 +157,7 @@
                 >Learn more</a
               >
             </button>
+            </div>
           </div>
         </div>
       </section>
@@ -194,30 +203,30 @@
               adipiscing elit.
             </p>
             <ul class="third-section-list">
-              <li class="third-section-items">100+</li>
-              <li class="third-section-items">
+              <li class="third-section-items">100+
+                              <p class="list-items-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 commodo magna et libero.
-                <p class="in-items-text"></p>
+              </p>
               </li>
-              <li class="third-section-items">43,000+</li>
-              <li class="third-section-items">
+              <li class="third-section-items">43,000+
+                              <p class="list-items-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 commodo.
-                <p class="in-items-text"></p>
+              </p>
               </li>
-              <li class="third-section-items">30+</li>
-              <li class="third-section-items">
+              <li class="third-section-items">30+
+                              <p class="list-items-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 commodo magna et libero.
-                <p class="in-items-text"></p>
+              </p>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <section class="fourth-section">
-        <div class="container">
+        <div class="container fourth-section-wrapper">
           <h4 class="fourth-section-title">
             Our hills and valleys are like nothing you’ve seen.
           </h4>
@@ -247,12 +256,14 @@
               class="video-size"
               href="https://www.youtube.com/watch?v=LCbo_xk30w4"
               target="_blank"
-              ><img
+              >
+              <picture>
+                <source media="(min-width:1280px)" srcset="./img/india@1x.jpg 1x, ./img/india@1x.jpg 2x"><img
                 class="fifth-section-img"
                 src="./img/Photo@1x.jpg"
                 srcset="./img/Photo@1x.jpg, ./img/Photo@2x.jpg"
                 alt="video-background"
-            /></a>
+            /></picture></a>
             <button class="video-icon-btn">
               <a target="_blank" href="https://www.youtube.com/watch?v=LCbo_xk30w4">
               <svg class="svg-icon-play" width="33" height="34">
@@ -261,6 +272,7 @@
               </a>
             </button>
           </div>
+          <div class="main-container">
           <div class="first-video fifth-section-video2">
             <a
               class="video-size"
@@ -284,11 +296,13 @@
               </a>
             </button>
           </div>
+          <div class="text-wrapper">
           <p class="fifth-section-text">In The Country</p>
           <p class="fifth-section-dscr">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             dapibus mauris in lectus tempus.
           </p>
+          </div>
           <div class="first-video fifth-section-video3">
             <a
               class="video-size"
@@ -312,11 +326,15 @@
               </a>
             </button>
           </div>
+          <div class="text-wrapper">
           <p class="fifth-section-text">In The City</p>
           <p class="fifth-section-dscr">
+            
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             dapibus mauris in.
           </p>
+          </div>
+          </div>
         </div>
       </section>
       <section class="sixth-section">
@@ -328,7 +346,10 @@
           </p>
           <ul class="sixth-section-list">
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)", srcset="./img/desktopPhotoGallery/girls@1x.jpg, ./img/desktopPhotoGallery/girls@2x.jpg" >
               <img
+              height="530px"
                 src="./img/photoGallery/Girls@1x.jpg"
                 srcset="
                   ./img/photoGallery/Girls@1x.jpg,
@@ -336,10 +357,13 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)", srcset="./img/desktopPhotoGallery/girlsMountain@1x.jpg, ./img/desktopPhotoGallery/girlsMountain@2x.jpg" >
               <img
+              src=""
                 src="./img/photoGallery/mountains@1x.jpg"
                 srcset="
                   ./img/photoGallery/mountains@1x.jpg,
@@ -347,10 +371,13 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)" srcset="./img/desktopPhotoGallery/worker@1x.jpg, ./img/desktopPhotoGallery/worker@2x.jpg"  >
               <img
+              src=""
                 src="./img/photoGallery/bluewater@1x.jpg"
                 srcset="
                   ./img/photoGallery/bluewater@1x.jpg,
@@ -358,10 +385,13 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)",   srcset="./img/desktopPhotoGallery/blueWater@1x.jpg, ./img/desktopPhotoGallery/blueWater@2x.jpg"  >
               <img
+              src=""
                 src="./img/photoGallery/vulcan@1x.jpg"
                 srcset="
                   ./img/photoGallery/vulcan@1x.jpg,
@@ -369,10 +399,13 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)", srcset="./img/desktopPhotoGallery/vulcano@1x.jpg, ./img/desktopPhotoGallery/vulcano@2x.jpg">
               <img
+              src=""
                 src="./img/photoGallery/worker@1x.jpg"
                 srcset="
                   ./img/photoGallery/worker@1x.jpg,
@@ -380,10 +413,13 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
             <li class="sixth-section-items">
+              <picture>
+                <source media="(min-width:1280px)", srcset="./img/desktopPhotoGallery/clouds@1x.jpg, ./img/desktopPhotoGallery//clouds@2x.jpg" >
               <img
+              src=""
                 src="./img/photoGallery/clouds@1x.jpg"
                 srcset="
                   ./img/photoGallery/clouds@1x.jpg,
@@ -391,7 +427,7 @@
                 "
                 alt=""
                 class="sixth-section-img"
-              />
+              /></picture>
             </li>
           </ul>
         </div>
