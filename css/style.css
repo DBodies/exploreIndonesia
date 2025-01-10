@@ -954,7 +954,7 @@ padding-bottom: 0;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .first-section {
-background-image: url('/img/desktopFirstBG@1x.jpg');
+background-image: url('/img/desktopFirstBG@2x.jpg');
 
   }
 }
@@ -999,10 +999,6 @@ padding-left: 277px;
 /* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION */
 .second-section {
   position: relative; 
-  background-image: url('/img/secondBG@1x.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   z-index: 2;
 }
 
