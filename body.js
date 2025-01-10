@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
         { src: './img/beachMountain@1x.jpg', srcset: './img/beachMountain@2x.jpg', desktopSrc: './img/field@1x.jpg', desktopSrcset: './img/field@2x.jpg' },
         { src: './img/sunVIDEO@1x.jpg', srcset: './img/sunVIDEO@2x.jpg', desktopSrc: './img/beach@1x.jpg', desktopSrcset: './img/beach@2x.jpg' },
         { src: './img/cityVIDEO@1x.jpg', srcset: './img/cityVIDEO@2x.jpg', desktopSrc: './img/rock@1x.jpg', desktopSrcset: './img/rock@2x.jpg' },
-        { src: './img/photoGallery/Girls@1x.jpg', srcset: './img/photoGallery/Girls@2x.jpg', desktopSrc: './img/children@1x.jpg', desktopSrcset: './img/children@2x.jpg' },
-        { src: './img/photoGallery/mountains@1x.jpg', srcset: './img/photoGallery/mountains@2x.jpg', desktopSrc: './img/picture@1x.jpg', desktopSrcset: './img/picture@2x.jpg' },
+        { src: './img/children@1x.jpg', srcset: './img/children@2x.jpg', desktopSrc: './img/children@1x.jpg', desktopSrcset: './img/children@2x.jpg' },
+        { src: './img/picture@1x.jpg', srcset: './img/picture@2x.jpg', desktopSrc: './img/picture@1x.jpg', desktopSrcset: './img/picture@2x.jpg' },
     ];
 
     const imgElement = document.querySelector('.third-img');  // Элемент изображения
