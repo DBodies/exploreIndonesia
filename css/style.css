@@ -131,7 +131,7 @@ background: linear-gradient(180deg, #ff0000 60%, rgba(255, 255, 255, 1) 50%);
 }
 
 .first-section {
-  background-image: url('/img/firstBG@1x.jpg');
+  background-image: url("/img/firstBG@1x.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,7 +140,7 @@ padding-bottom: 40px;
   padding-top: 153px;
 }
 .first-section::before {
-    content: '';
+    content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -152,7 +152,7 @@ padding-bottom: 40px;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .first-section {
-    background-image: url('/img/firstBG@2x.jpg');
+    background-image: url("/img/firstBG@2x.jpg");
   }
 }
 .first-title {
@@ -182,7 +182,7 @@ padding-bottom: 40px;
     line-height: 150%;
 }
 .btn-traveling::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -271,14 +271,14 @@ justify-content: center;
 /* -------------------------------------------------------Second section--------------------------------------------------------------------------------------------------------------------------------------------- */
 .second-section {
   position: relative; 
-  background-image: url('/img/secondBG@1x.jpg');
+  background-image: url("/img/secondBG@1x.jpg");
     background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .wrapper-img::before {
-  content: '';
+  content: "";
   position: absolute; 
   top: 0;
   left: 0;
@@ -296,7 +296,7 @@ justify-content: center;
 
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .second-section {
-    background-image: url('/img/secondBG@2x.jpg');
+    background-image: url("/img/secondBG@2x.jpg");
   }
 }
 .img-field {
@@ -350,12 +350,12 @@ margin-bottom: 40px;
 }
 .second-wrapper-img {
   position: relative;
-  background-image: url('/img/seconBGbeach@1x.jpg');
+  background-image: url("/img/seconBGbeach@1x.jpg");
   padding-bottom: 48px;
 }
 
 .second-wrapper-img::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -371,7 +371,7 @@ margin-bottom: 40px;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution:2dppx) {
   .second-wrapper-img {
-    background-image: url('/img/seconBGbeach@2x.jpg');
+    background-image: url("/img/seconBGbeach@2x.jpg");
   }
 }
 .img-beach {
@@ -399,7 +399,7 @@ color: #ffffff;
 }
 /* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section *//* Third section */
 .third-section {
-  background-image: url('/img/mountainBG@1x.jpg');
+  background-image: url("/img/mountainBG@1x.jpg");
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -408,7 +408,7 @@ color: #ffffff;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution:2dppx) {
   .third-section {
-  background-image: url('/img/mountainBG@2x.jpg');
+  background-image: url("/img/mountainBG@2x.jpg");
 }
 }
 .third-img {
@@ -493,7 +493,7 @@ line-height: 115%;
 color: #dd2242;
 }
 .by-the-number::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -538,14 +538,14 @@ margin-bottom: 42px;
 }
 /* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION */
 .fifth-section {
-  background-image: url('/img/hugo-matillaBG@1x.jpg');
+  background-image: url("/img/hugo-matillaBG@1x.jpg");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .fifth-section::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -560,7 +560,7 @@ margin-bottom: 42px;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .fifth-section {
-    background-image: url('/img/hugo-matillaBG@2x.jpg');
+    background-image: url("/img/hugo-matillaBG@2x.jpg");
   }
 }
 .container.fifth-section-wrapper {
@@ -945,7 +945,7 @@ font-size: 23px;
 }
 /* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP *//* FIRST SECTION DESKTOP */
 .first-section {
-    background-image: url('/img/desktopFirstBG@1x.jpg');
+    background-image: url("/img/desktopFirstBG@1x.jpg");
 padding-bottom: 0;
   padding-top: 170px;
 }
@@ -954,7 +954,7 @@ padding-bottom: 0;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .first-section {
-background-image: url('/img/desktopFirstBG@2x.jpg');
+background-image: url("/img/desktopFirstBG@2x.jpg");
 
   }
 }
@@ -993,7 +993,8 @@ color: #ffffff;
 }
 .desktop-wrapper {
   display: flex;
-padding-left: 277px;
+padding: 0 60px;
+justify-content: center;
 }
 
 /* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION *//* SECOND SECTION */
@@ -1003,7 +1004,7 @@ padding-left: 277px;
 }
 
 .second-section::before {
-  content: '';
+  content: "";
   position: absolute; 
   top: 0;
   left: 0;
@@ -1068,11 +1069,11 @@ margin-left: 30px;
 }
 /* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION *//* THIRD SECTION */
 .third-section {
-  background-image: url('/img/fieldBGdesktop@1x.jpg');
+  background-image: url("/img/fieldBGdesktop@1x.jpg")
 }
 @media screen and (min-resolution:192dpi) and (min-resolution:2dppx)  {
   .third-section {
-  background-image: url('/img/fieldBGdesktop@2x.jpg');
+  background-image: url("/img/fieldBGdesktop@2x.jpg");
 }
 }
 .third-section-text {
@@ -1130,10 +1131,10 @@ font-weight: 700;
 }
 /* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION *//* FIFTH SECTION */
 .fifth-section {
-  background-image: url('/img/bgField@1x.jpg');
+  background-image: url("/img/bgField@1x.jpg");
 }
 @media screen and (min-resolution:192pdi) and (min-resolution:2dppx) {
-   fifth-section{ background-image: url('/img/bgField@2x.jpg'); }
+   fifth-section{ background-image: url("/img/bgField@2x.jpg"); }
 }
 .main-container {
   display: flex;
