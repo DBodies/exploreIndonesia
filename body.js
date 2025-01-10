@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const showMoreButtons = document.querySelectorAll('.btn-show-more'); // ВЫбираем все эллементы на странице с классом .btn-show-more
 showMoreButtons.forEach(button => {   // FOR EACH = для каждого элемента кнопки 
-  button.addEventListener('click', () => {   //addEventListener - оброботчик событий для каждой кнопки. => стрелочная функция. То есть после клика происходит стрелочная функция
+  button.addEventListener('click', () => {   //addEventListener - обрaботчик событий для каждой кнопки. => стрелочная функция. То есть после клика происходит стрелочная функция
     const hiddenText = button.previousElementSibling.querySelector('.hidden-text');
 
     if (hiddenText.classList.contains('show')) {
