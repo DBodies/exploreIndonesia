@@ -659,7 +659,7 @@ margin-bottom: 40px;
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 16px;
+  gap: 26px;
   justify-content: center;
   padding-left: 16px;
 }
@@ -824,6 +824,9 @@ position: absolute;
 top: -35px;
 left: 50%;
 transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 .icon-up-footer {
   fill: white;
